@@ -1,0 +1,84 @@
+body{
+    font-family: 'Skranji', cursive;
+    margin:0;
+    padding: 0;
+    background-color: rgba(0,0,0,0.938);
+}
+
+.navbar{
+    background-color: transparent;
+    position: relative;
+    z-index:4;
+}
+
+.nav-link{
+    font-size:14px;
+}
+
+main{
+    position: absolute;
+    top:0%;
+    z-index:0
+}
+
+.carousel-control-prev, .carousel-control-next{
+
+    width:8%;
+}
+
+.site-wrapper{
+    height: 800px;
+}
+
+.card,.list-group-item{
+    background-color: rgba(0,0,0,0.712);
+}
+
+.parallax{
+background-image: url('../images/Game-Background.jpg');
+background-attachment: fixed;
+background-position: cover;
+background-repeat: no-repeat;
+height:550px;
+}
+
+h3{
+    color:crimson;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px){
+
+    .parallax{
+        background-image: url('../images/Game-Background.jpg');
+        background-attachment: fixed;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height:550px;
+        width:auto; 
+         
+}
+
+.site-wrapper{
+    height: 500px;
+}
+
+
+.carousel-control-prev, .carousel-control-next{
+
+    display:none;
+}
+
+.section-1{
+
+margin-left:20px;
+
+}
+
+
+.carousel-inner img{
+
+    height: 400px;
+}
+
+}
